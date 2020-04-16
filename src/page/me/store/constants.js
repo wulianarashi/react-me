@@ -1,0 +1,1 @@
+export const ME_DATA = 'ME_DATA'

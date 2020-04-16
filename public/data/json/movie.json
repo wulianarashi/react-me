@@ -1,0 +1,95 @@
+{
+    "state": 200,
+    "data": {
+        "fantasy": [
+            {
+                "id": 1,
+                "name": "哈儿的移动城堡",
+                "ranking": "9.0",
+                "img": "/data/imgs/movie/haer.jpg"
+            },
+            {
+                "id": 2,
+                "name": "幽灵公主",
+                "ranking": "8.0",
+                "img": "/data/imgs/movie/yl.jpg"
+            },
+            {
+                "id": 3,
+                "name": "龙猫",
+                "ranking": "9.2",
+                "img": "/data/imgs/movie/lm.jpg"
+            }
+        ],
+        "other": [
+            {
+                "id": 1,
+                "name": "鲁邦三世TV系列2",
+                "ranking": "9.2",
+                "img": "/data/imgs/movie/other_1.webp"
+            },
+            {
+                "id": 2,
+                "name": "天空之城",
+                "ranking": "9.1",
+                "img": "/data/imgs/movie/other_2.webp"
+            },
+            {
+                "id": 3,
+                "name": "倾耳倾听",
+                "ranking": "8.9",
+                "img": "/data/imgs/movie/other_3.webp"
+            },
+            {
+                "id": 4,
+                "name": "风之谷 ",
+                "ranking": "8.9",
+                "img": "/data/imgs/movie/other_4.webp"
+            },
+            {
+                "id": 5,
+                "name": "魔女宅急便",
+                "ranking": "8.6",
+                "img": "/data/imgs/movie/other_5.webp"
+            },
+            {
+                "id": 6,
+                "name": "悬崖上的金鱼姬 ",
+                "ranking": "8.5",
+                "img": "/data/imgs/movie/other_6.webp"
+            },
+            {
+                "id": 7,
+                "name": "起风了",
+                "ranking": "8.0",
+                "img": "/data/imgs/movie/other_7.webp"
+            }
+        ],
+        "ranking": [
+            {
+                "id": 1,
+                "name": "千与千寻",
+                "boxOffice": "304亿日元",
+                "img": "/data/imgs/movie/ranking_1.png"
+            },
+            {
+                "id": 2,
+                "name": "哈尔的移动城堡",
+                "boxOffice": "196亿日元",
+                "img": "/data/imgs/movie/ranking_2.png"
+            },
+            {
+                "id": 3,
+                "name": "幽灵公主",
+                "boxOffice": "193亿日元",
+                "img": "/data/imgs/movie/ranking_3.png"
+            },
+            {
+                "id": 4,
+                "name": "悬崖上的金鱼姬",
+                "boxOffice": "155亿日元",
+                "img": "/data/imgs/movie/ranking_4.png"
+            }
+        ]
+    }
+}

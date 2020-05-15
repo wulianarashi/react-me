@@ -16,9 +16,9 @@ class Menu extends PureComponent {
 		window.addEventListener('scroll', this.scrolling);
 	}
 
-    goto = (item) => {
+    goto = (e) => {
         const scrollElement = [...document.querySelectorAll('.scroll')].filter(ele => {
-            return ele.getAttribute('data-section') === item
+            return ele.getAttribute('data-section') === e.target.getAttribute('data-current')
         })
 
         ScrollTop(scrollElement[0].offsetTop+5, 700)
@@ -57,11 +57,11 @@ class Menu extends PureComponent {
                         </p>
                     </div>
                     <div className='me-bottom'>
-                        <ul>
-                            <li className='goto on' data-current='scroll1' onClick={() => { this.goto('scroll1') }}>基 本 信 息</li>
-                            <li className='goto' data-current='scroll2' onClick={() => { this.goto('scroll2') }}>工 作 经 历</li>
-                            <li className='goto' data-current='scroll3' onClick={() => { this.goto('scroll3') }}>项 目 经 历</li>
-                            <li className='goto' data-current='scroll4' onClick={() => { this.goto('scroll4') }}>技 能 说 明</li>
+                        <ul onClick={(e) => { this.goto(e) }}>
+                            <li className='goto on' data-current='scroll1'>基 本 信 息</li>
+                            <li className='goto' data-current='scroll2'>工 作 经 历</li>
+                            <li className='goto' data-current='scroll3'>项 目 经 历</li>
+                            <li className='goto' data-current='scroll4'>技 能 说 明</li>
                         </ul>
                     </div>
                 </div>
